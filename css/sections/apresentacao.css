@@ -1,8 +1,9 @@
 .apresentacao {
   width: 100%;
   min-height: calc(100vh - 82px);
-  max-height: 100%;
+  max-height: max-content;
   background-image: url(../../img/bg1.png);
+  background-repeat: no-repeat;
   background-position: right center;
 }
 .form-apresentacao {
