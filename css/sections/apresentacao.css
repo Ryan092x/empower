@@ -1,7 +1,6 @@
 .apresentacao {
   width: 100%;
   min-height: calc(100vh - 82px);
-  max-height: max-content;
   background-image: url(../../img/bg1.png);
   background-repeat: no-repeat;
   background-position: right center;
@@ -17,7 +16,10 @@
 }
 .form-cont {
   max-width: 594px;
+  height: max-content;
   margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 .form-cont h1 {
   font-family: var(--font1);
@@ -129,6 +131,7 @@
   color: #FBF9FF;
   text-transform: uppercase;
   letter-spacing: 2px;
+  margin-bottom: 80px;
 }
 .button-apresentacao svg {
   width: 14px;
